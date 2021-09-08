@@ -3,11 +3,11 @@ const app = express();
 const path = require('path')
 
 
-const PORT= process.env.PORT||3000
+const PORT= process.env.PORT||4000
 
 app.use(express.static('public'));
 app.listen(PORT, () => {
-    console.log('App listening http://localhost:3000/');
+    console.log('App listening http://localhost:4000/');
 });
 
 app.get('/', (req, res) => {
