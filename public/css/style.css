@@ -1,0 +1,72 @@
+*{
+    box-sizing: content-box;
+}
+
+img{
+    height: 50%;
+    font-size:2%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.titulo{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+}
+header{
+    background-color: #eac926;
+    box-sizing: 100%;
+}
+.fa-bars{
+background-color:#03264C;;
+margin-left: 5%;
+font-size: 200%;
+color: white;
+padding: 0.4%;
+border-radius: 20%;
+
+}
+.busqueda{
+    background-color: white;
+    margin-left: 1%;
+    margin-right:  86%;
+    text-align: center;
+    border: #666;
+}
+.fa-search{
+    background-color: white;
+    margin-left: 1%;
+}
+.fa-credit-card{
+    color: #1259c3;
+    margin-left: 13%;
+    font-size: 200%;
+}
+h5{
+    font-weight: 7000;
+    font-size: 100%;
+    margin-left: 10%;
+}
+.fa-user-shield{
+    color: #1259c3;
+    margin-left: 13%;
+    font-size: 200%;
+}
+.fa-gift{
+    color: #1259c3;
+    margin-left: 13%;
+    font-size: 200%;
+
+}
+.img-producto{
+    height: auto;
+}
