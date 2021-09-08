@@ -13,3 +13,6 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
     res.sendFile(path.resolve("views/home.html"))
 });;
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve("views/register.html"))
+});;

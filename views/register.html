@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <form action="/registor" method="POST">
+
+       <label for="nombre">Nombre:</label> 
+       <input type="text" name="nombre" id="nombre">
+       <br>
+
+       <label for="nombre de usuario">Nombre de usuario:</label>
+       <input type="text" nombre="nombre de usuario" id="nombre de usuario">
+       <br>
+
+       <label for="fechaDeNacimiento">Fecha de Nacimiento</label>
+       <input type="date" name="fecha">
+       <br>
+       
+       <label for="text"name="domicilio">domicilio</label>
+       <input type="text" name="domicilio" id="domicilio">
+       <br>
+       <section>
+           <p>Perfil de usuario</p>
+           <label for="text" name="comprador">comprador</label>
+           <input type="radio" name="perfil-de-comprador" value="comprador">
+           <label for="text" name="vendedor">Vendedor</label>
+           <input type="radio" name="perfil-de-vendedor" value="vendedor">
+       </section>
+       <br>
+       <section>
+           <p>categorias</p>
+           <input type="checkbox" name="categorias" value="electro">Electro<br>
+           <input type="checkbox" name="categorias" value="Moda">Moda<br>
+           <input type="checkbox" name="categorias" value="Hogar">Hogar<br>
+           <input type="checkbox" name="categorias" value="Jugeteria">Jugeteria<br>
+           <input type="checkbox" name="categorias" value="Vida Sana">Vida Sana<br>
+       </section>
+        <br>
+       <label>foto de perfil</label>
+       <input type="file" name="avatar" accept=".jpg" multiple> 
+       <label for="contrasena">contrasena</label>
+       <input type="password" name="contrasena" id="contrasena" alt="strongPass" required>
+
+       <input  type="sumbit" value="enviar">
+       <input type="reset" value="resetear">
+
+    </form>
+
+   
+</body>
+</html>
