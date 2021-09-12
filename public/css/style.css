@@ -5,6 +5,16 @@
 img{
     height: 50%;
     font-size:2%;
+    width: 20%;
+    padding: 10%;
+    margin: 4%;
+}
+.logo-header{
+    font-size: 5%;
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0.1%;
+
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -23,6 +33,7 @@ h4{
     font-size: 16px;
 }
 header{
+   
     background-color: #eac926;
     box-sizing: 100%;
 }
@@ -41,6 +52,7 @@ border-radius: 20%;
     margin-right:  86%;
     text-align: center;
     border: #666;
+    border-radius: 1px;
 }
 .fa-search{
     background-color: white;
@@ -67,6 +79,11 @@ h5{
     font-size: 200%;
 
 }
-.img-producto{
-    height: auto;
+.frase{
+    text-align: center;
+}
+
+.fa-search{
+    top: 20%;
+    margin-right: 50;
 }
